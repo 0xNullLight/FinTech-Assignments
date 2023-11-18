@@ -12,7 +12,7 @@ Teller Finance was founded in 2020 by Ryan Berkun. The company is headquartered 
 
 ~~https://teller-hosting.s3-us-west-1.amazonaws.com/Teller+Protocol+V1.0+Whitepaper.pdf~~
 
-# [Teller Lite](https://docs.teller.org/teller-lite/) (Ethereum, Polygon, Arbitrum One, Base, Mantle)
+# [Teller Lite (v2)](https://docs.teller.org/teller-lite/) (Ethereum, Polygon, Arbitrum One, Base, Mantle)
 
 Imagine **Peer-to-peer lending (p2p)** on the Blockchain. Imagine the next evolution of **defi lending protocols** where you're **no longer bounded by price-based liquidation**.
 This is what Teller Protocol offers.

@@ -42,7 +42,7 @@ In a **time-based liquidation** borrow/lending protocol such as **Teller Protoco
 
 Their are many defi protocol borrowing/lending strategies, but it all stems down to this..
 
-**"Lenders get APY or the Collateral (if borrow defaults or get liquidated), Borrowers get liquidity and short terms"**
+**"Lenders get APY or the Collateral (if borrow defaults or get liquidated), Borrowers get liquidity and terms (duration of the loan)"**
 
 ## Things to consider
 

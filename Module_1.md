@@ -15,10 +15,10 @@ Teller Finance was founded in 2020 by Ryan Berkun. The company is headquartered 
 
 Imagine **Peer-to-peer lending (p2p)** on the Blockchain. Imagine the next evolution of **defi lending protocols** where you're **no longer bounded by price-based liquidation**.
 This is what Teller Protocol offers.
-**_As of date, their is no token offered by this protocol as discussed in that old YouTube video I provided._**
+**_As of date, their is no token offered by this protocol as discussed in that old youtube video I provided._**
 
 
-In the world of defi, some of the most popular **lending & borrowing protocols** (ex: **Aave**) tend to be accompany by **price-based** liquidation pools via the help of **Oracles** such as **ChainLink** meant to help pull in real-world data to talk to on-chain data.
+In the world of defi, some of the most popular **lending & borrowing protocols** (ex: **Aave**) tend to be acompany by **price-based** liquidation pools via the help of **Oracles** such as **ChainLink** meant to help pull in real-world data to talk to on-chain data.
 
 **Teller protocol** changes that by **replacing price-based liquidation pools with a time-based liquidation pool** allowing **fixed collateral, fixed duration loans** in concentrated liquidity order-books.
 
@@ -29,12 +29,12 @@ Utilizing the Teller Protocol, because their is no oracle involved where data fr
 
 ## Examples and differences between Price-Based vs Time-Based liquidation
 
-Imagine this scenario..
+Imagine this scenerio..
 
 You have an asset, let's call it **Asset A**. This is your collateral.
 We want to borrow against it to obtain **Asset B**.
 
-In a typical **price-based liquidation** borrow/lending protocol, if you were to borrow **ASSET B** against **ASSET A**. If **ASSET A** drops in price value based off the data obtain from the oracle, it could cause for a liquidation in which you lose your entire position.
+In a typical **price-based liquidation** borrow/lending protocol, if you were to borrow **ASSET B** against **ASSET A**. If **ASSET A** drops in price value based off the data obtain from the oracle, it could cause for a liqudation in which you lose your entire position.
 
 In a **time-based liquidation** borrow/lending protocol such as **Teller Protocol**, if you were to borrow **ASSET B** against **ASSET A**. If **ASSET A** drops in price value. _**It wouldn't matter**_ because their is no oracle involved where real-world data would be taken into consideration possibly affecting liquidation. The only thing that matters is that you pay back on time.
 
@@ -46,7 +46,7 @@ Their are many defi protocol borrowing/lending strategies, but it all stems down
 
 ## Things to consider
 
-Utilizing **Cred Score** & **Spectral Score** to measure the defi equivalent of a credit score for a particular crypto wallet; Teller Protocol can help defi users determine the trust worthiness of a particular crypto wallet.
+Utilizing **Cred Score** & **Spectral Score** to measure the defi eqvaulient of a credit score for a particular crypto wallet; Teller Protocol can help defi users determine the trust worthiness of a particular crypto wallet.
 
 Email requirement for **"Custom loan"** feature has been fixed, email is optional for loan requests! 
 
@@ -54,7 +54,7 @@ You can rollover any loan indefinitely with **Extensions**. As long as there is 
 
 ## Important note:
 
-Anybody whom wants to, can find a defaulted loan or a loan that is soon to be put up for liquidation & offer to pay off that loan in exchange to redeem the collateral used within that specific loan; in a sense becoming a crypto debt collector within the realms of defi.
+Anybody whom wants to, can find a defaulted loan or a loan that is soon to be put up for liqudation & offer to pay off that loan in exchange to redeem the collateral used within that speicific loan; in a sense becoming a crypto debt collector within the realms of defi.
 
 ## Active Liquidity Pools
 
@@ -72,6 +72,18 @@ https://app.teller.org/base/pools/address/0x
 
 **5) Mantle**  
 https://app.teller.org/mantle/pools/address/0x
+
+**Example of Current Active LP For ETH**:
+![Teller's LP (ETH)](https://raw.githubusercontent.com/Hcrypt/FinTech-Assignments/main/Teller_Active_Pool_as_of_11182023_(ETH).png?token=GHSAT0AAAAAACKNCWHJBNKZCFYAVJPKMG42ZKZEHHQ)
+
+**Total volume:**  
+The aggregate amount of funds or assets currently present in the liquidity pools. This represents the total value of assets that are available for lending and borrowing within the protocol.
+
+**Total available:**  
+The amount of funds or assets that are currently available for borrowing from the liquidity pools. It represents the portion of the total pool volume that is not currently borrowed and is accessible for users to borrow.
+
+**Total borrowed:**  
+The sum of funds or assets that have been borrowed from the liquidity pools. This value represents the amount of assets that have been utilized by borrowers from the available liquidity pools.
 
 ## Deployed Contracts
 
@@ -101,6 +113,8 @@ https://app.teller.org/mantle/pools/address/0x
 
 
 https://docs.teller.org/v2/resources/deployed-contracts
+
+
 
 
 ## Links

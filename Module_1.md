@@ -58,6 +58,18 @@ Anybody whom wants to, can find a defaulted loan or a loan that is soon to be pu
 
 ## Active Liquidity Pools
 
+**Example of Current Active LP For ETH**:
+![Teller's LP (ETH)](https://raw.githubusercontent.com/Hcrypt/FinTech-Assignments/main/Teller_Active_Pool_as_of_11182023_(ETH).png?token=GHSAT0AAAAAACKNCWHJBNKZCFYAVJPKMG42ZKZEHHQ)
+
+**Total volume:**  
+The aggregate amount of funds or assets currently present in the liquidity pools. This represents the total value of assets that are available for lending and borrowing within the protocol.
+
+**Total available:**  
+The amount of funds or assets that are currently available for borrowing from the liquidity pools. It represents the portion of the total pool volume that is not currently borrowed and is accessible for users to borrow.
+
+**Total borrowed:**  
+The sum of funds or assets that have been borrowed from the liquidity pools. This value represents the amount of assets that have been utilized by borrowers from the available liquidity pools.
+
 **1) Ethereum**  
 https://app.teller.org/polygon/pools/address/0x
 
@@ -72,18 +84,6 @@ https://app.teller.org/base/pools/address/0x
 
 **5) Mantle**  
 https://app.teller.org/mantle/pools/address/0x
-
-**Example of Current Active LP For ETH**:
-![Teller's LP (ETH)](https://raw.githubusercontent.com/Hcrypt/FinTech-Assignments/main/Teller_Active_Pool_as_of_11182023_(ETH).png?token=GHSAT0AAAAAACKNCWHJBNKZCFYAVJPKMG42ZKZEHHQ)
-
-**Total volume:**  
-The aggregate amount of funds or assets currently present in the liquidity pools. This represents the total value of assets that are available for lending and borrowing within the protocol.
-
-**Total available:**  
-The amount of funds or assets that are currently available for borrowing from the liquidity pools. It represents the portion of the total pool volume that is not currently borrowed and is accessible for users to borrow.
-
-**Total borrowed:**  
-The sum of funds or assets that have been borrowed from the liquidity pools. This value represents the amount of assets that have been utilized by borrowers from the available liquidity pools.
 
 ## Deployed Contracts
 

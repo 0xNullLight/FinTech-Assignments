@@ -59,7 +59,7 @@ Anybody whom wants to, can find a defaulted loan or a loan that is soon to be pu
 ## Active Liquidity Pools
 
 **Example of Current Active LP For ETH**:
-![Teller's LP (ETH)]([https://raw.githubusercontent.com/Hcrypt/FinTech-Assignments/main/Teller_Active_Pool_as_of_11182023_(ETH).png?token=](https://github.com/Hcrypt/FinTech-Assignments/blob/main/Teller_Active_Pool_as_of_11182023_(ETH).png?raw=true))
+![Teller's LP (ETH)]([[https://raw.githubusercontent.com/Hcrypt/FinTech-Assignments/main/Teller_Active_Pool_as_of_11182023_(ETH).png?token=](https://github.com/Hcrypt/FinTech-Assignments/blob/main/Teller_Active_Pool_as_of_11182023_(ETH).png?raw=true)](https://raw.githubusercontent.com/Hcrypt/FinTech-Assignments/main/Teller_Active_Pool_as_of_11182023_(ETH).png?token=GHSAT0AAAAAACKNCWHJDDGKX3NICZBHUQYSZK36BQQ))
 
 **Total volume:**  
 The aggregate amount of funds or assets currently present in the liquidity pools. This represents the total value of assets that are available for lending and borrowing within the protocol.

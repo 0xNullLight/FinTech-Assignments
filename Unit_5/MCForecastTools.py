@@ -155,18 +155,21 @@ class MCSimulation:
         plt.axvline(self.confidence_interval.iloc[0], color='r')
         plt.axvline(self.confidence_interval.iloc[1], color='r')
         return plt
-    
+            
     def summarize_cumulative_return(self):
+        
         """
         Calculate final summary statistics for Monte Carlo simulated stock data.
-        
+
         """
         
-        # Check to make sure that simulation has run previously. 
-        if not isinstance(self.simulated_return,pd.DataFrame):
+        # Check to make sure that simulation has run previously.
+        if not isinstance(self.simulated_return, pd.DataFrame):
             self.calc_cumulative_return()
             
         metrics = self.simulated_return.iloc[-1].describe()
         ci_series = self.confidence_interval
-        ci_series.index = ["95% CI Lower","95% CI Upper"]
-        return metrics.append(ci_series)
+        ci_series.index = ["95% CI Lower", "95% CI Upper"]
+        # Use the `concat' function to concatenate the metrics and ci_series
+        summary_statistics = pd.concat([metrics, ci_series])
+        return summary_statistics

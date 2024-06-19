@@ -10,7 +10,9 @@
 
 **Module 23 & 24** = [**FinTech Project 3**](https://github.com/0xNullLight/FinTech-Project_3)
 
-**Graded** (Private)
+_________________
+
+**Graded:** (Private)
 
 https://github.com/0xNullLight/Random_Private/blob/master/UMN-FinTech-BootCamp_FeedBacks.md
 
